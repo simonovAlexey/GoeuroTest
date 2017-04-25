@@ -6,7 +6,7 @@ GoEuro
   <a href="https://docs.spring.io/spring-boot/docs/1.5.3.RELEASE/reference/html">Spring Boot</a>,
   <a href="https://github.com/FasterXML/jackson-dataformats-text">Jackson dataformat CSV</a>,
   <a href="http://junit.org/">JUnit</a>,
-  <a https://github.com/google/guava/wiki">Google Guava</a>,
+  <a href="https://github.com/google/guava/wiki">Google Guava</a>,
   <a href="https://projectlombok.org/">Lombok</a>.
   
 API Endpoint URL in: `\resources\application.properties` 
@@ -106,7 +106,7 @@ If no matches are found an empty JSON array is returned.
 The program should query the API with the user input and create a CSV file from it. The CSV file should have the form: _id, name, type, latitude,
 longitude
 
-##Your solution
+## Your solution
 
 
 Please implement your solution as a stand alone application which can be started from the command line, i.e. send us a fat jar file with all dependencies. You can use Java 8 and open source libraries that you think help you to fulfill this task.
