@@ -1,23 +1,38 @@
 
 GoEuro 
 ====
+ Used tools, libraries and frameworks:
+  <a href="http://maven.apache.org/">Maven</a>,
+  <a href="https://docs.spring.io/spring-boot/docs/1.5.3.RELEASE/reference/html">Spring Boot</a>,
+  <a href="https://github.com/FasterXML/jackson-dataformats-text">Jackson dataformat CSV</a>,
+  <a href="http://junit.org/">JUnit</a>,
+  <a https://github.com/google/guava/wiki">Google Guava</a>,
+  <a href="https://projectlombok.org/">Lombok</a>.
+  
+API Endpoint URL in: `\resources\application.properties` 
+
+## Installation
+`mvn install`
+## Launching application
+`java -jar target/goeurotest-1.jar minsk`
 
 
-##Task
+
+## Task
 
 The purpose of this test is to see how you approach a problem and what your solutions look like. The requirements for this test are simple and should be straightforward to grasp. When implementing a solution, please keep things simple but well engineered - as you would do for production code. 
 That said:
 Implement an API query and transform this data into a csv file
 Create a Java command line tool that takes as an input parameter a string
 
-java -jar goeurotest-1.jar "CITY_NAME"
+`java -jar goeurotest-1.jar "CITY_NAME"`
 
 The program takes this string and queries with it our Location JSON API:
 The app should use this API endpoint:
 
 http://www.goeuro.com/GoEuroAPI/rest/api/v3/position/suggest/en/CITY_NAME
 
-Where CITY_NAME is the string that the user has entered as a parameter when calling the tool, e.g.
+Where `CITY_NAME` is the string that the user has entered as a parameter when calling the tool, e.g.
 
 http://www.goeuro.com/GoEuroAPI/rest/api/v3/position/suggest/en/minsk
 
