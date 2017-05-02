@@ -29,7 +29,7 @@ public class CsvSuggestionWriter {
             }
 
         } catch (IOException e) {
-            throw new RuntimeException();
+            throw new RuntimeException("Error writing data");
         }
 
     }
